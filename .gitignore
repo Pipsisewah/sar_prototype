@@ -1,6 +1,7 @@
 
 packaged.yaml
 ./aws-sam
+.idea
 
 # Created by https://www.gitignore.io/api/osx,node,linux,windows
 

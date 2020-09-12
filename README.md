@@ -124,7 +124,6 @@ Next, you can use AWS Serverless Application Repository to deploy ready to use A
 ## Guide used to make this repo
 https://docs.aws.amazon.com/serverlessrepo/latest/devguide/serverlessrepo-quick-start.html
 
-
 ## Steps to create Serverless Application
 1. Add metadata to template.yaml
 ```
@@ -164,3 +163,7 @@ Metadata:
 ```sam deploy --template-file /Users/stevenlopes/src/lambda/tutorials/SAR_tutorial/packaged.yaml --stack-name slopesprogrammingsar --capabilities CAPABILITY_IAM```
 ### Publish Application
 ```sam publish --template packaged.yaml --region us-west-2```
+
+
+## Guide to make pipeline
+https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-serverlessrepo-auto-publish.html
