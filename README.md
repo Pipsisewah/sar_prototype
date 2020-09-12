@@ -167,3 +167,15 @@ Metadata:
 
 ## Guide to make pipeline
 https://docs.aws.amazon.com/codepipeline/latest/userguide/tutorials-serverlessrepo-auto-publish.html
+### Update bucket policy (needs permission to upload README to bucket)
+Add codebuild service to bucket policy with putObject permission
+```
+{
+               "Effect": "Allow",
+               "Principal": {
+                   "Service": "codebuild.amazonaws.com"
+               },
+               "Action": "s3:PutObject",
+               "Resource": "arn:aws:s3:::slopesprogrammingsar/*"
+           }
+```
