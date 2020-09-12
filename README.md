@@ -118,3 +118,49 @@ aws cloudformation delete-stack --stack-name SAR_tutorial
 See the [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) for an introduction to SAM specification, the SAM CLI, and serverless application concepts.
 
 Next, you can use AWS Serverless Application Repository to deploy ready to use Apps that go beyond hello world samples and learn how authors developed their applications: [AWS Serverless Application Repository main page](https://aws.amazon.com/serverless/serverlessrepo/)
+
+
+
+## Guide used to make this repo
+https://docs.aws.amazon.com/serverlessrepo/latest/devguide/serverlessrepo-quick-start.html
+
+
+## Steps to create Serverless Application
+1. Add metadata to template.yaml
+```
+Metadata:
+     AWS::ServerlessRepo::Application:
+       Name: <application-name>
+       Description: hello world
+       Author: <username>
+       SpdxLicenseId: Apache-2.0
+       ReadmeUrl: README.md
+       Labels: ['tests']
+       HomePageUrl: https://github.com/<username>/<project>
+       SemanticVersion: 0.0.1
+       SourceCodeUrl: https://github.com/<username>/<project>
+```
+
+### S3 Bucket Permissions
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "Service":  "serverlessrepo.amazonaws.com"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::<your-bucket-name>/*"
+        }
+    ]
+}
+
+### Package for SAR
+```sam package --template-file template.yaml --output-template-file packaged.yaml --s3-bucket slopesprogrammingsar```
+### Build application
+```sam build```
+### Deploy Application - which create AWS objects like API Gateway and Lambdas
+```sam deploy --template-file /Users/stevenlopes/src/lambda/tutorials/SAR_tutorial/packaged.yaml --stack-name slopesprogrammingsar --capabilities CAPABILITY_IAM```
+### Publish Application
+```sam publish --template packaged.yaml --region us-west-2```

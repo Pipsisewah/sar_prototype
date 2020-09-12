@@ -10,6 +10,18 @@ Globals:
   Function:
     Timeout: 3
 
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: sar-prototype
+    Description: hello world
+    Author: slopes
+    SpdxLicenseId: Apache-2.0
+    ReadmeUrl: README.md
+    Labels: ['tests']
+    HomePageUrl: https://github.com/Pipsisewah/sar_prototype
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/Pipsisewah/sar_prototype
+
 Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
