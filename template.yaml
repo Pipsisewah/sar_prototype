@@ -16,6 +16,7 @@ Metadata:
     Description: hello world
     Author: slopes
     SpdxLicenseId: Apache-2.0
+    ReadmeUrl: README.md
     Labels: ['tests']
     HomePageUrl: https://github.com/Pipsisewah/sar_prototype
     SemanticVersion: 0.0.1
