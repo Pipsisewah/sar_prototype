@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f924fe7-44a0-47d5-a630-3d58327b6345" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="4f924fe7-44a0-47d5-a630-3d58327b6345" name="Default" comment="Completed publishing to AWS Serverless Application Repository&#10;Updated README to include step to do this">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.yaml" afterPath="$PROJECT_DIR$/template.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="398">
+              <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -35,26 +32,36 @@
       <file leaf-file-name="template.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="62" />
+            <state relative-caret-position="199">
+              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="packaged.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packaged.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="397">
-                <caret line="165" column="58" lean-forward="false" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="58" />
+              <first_editor relative-caret-position="206">
+                <caret line="174" column="22" lean-forward="false" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
                 <folding>
-                  <marker date="1599888602844" expanded="true" signature="5039:5157" ph="Events: &lt;1 key&gt;" />
-                  <marker date="1599888602844" expanded="true" signature="5055:5157" ph="HelloWorld: &lt;2 keys&gt;" />
-                  <marker date="1599888602844" expanded="true" signature="5083:5086" ph="Api" />
-                  <marker date="1599888602844" expanded="true" signature="5097:5157" ph="Properties: &lt;2 keys&gt;" />
-                  <marker date="1599888602844" expanded="true" signature="5127:5133" ph="/hello" />
-                  <marker date="1599888602844" expanded="true" signature="5154:5157" ph="get" />
+                  <marker date="1600100055484" expanded="true" signature="5039:5157" ph="Events: &lt;1 key&gt;" />
+                  <marker date="1600100055484" expanded="true" signature="5055:5157" ph="HelloWorld: &lt;2 keys&gt;" />
+                  <marker date="1600100055484" expanded="true" signature="5083:5086" ph="Api" />
+                  <marker date="1600100055484" expanded="true" signature="5097:5157" ph="Properties: &lt;2 keys&gt;" />
+                  <marker date="1600100055484" expanded="true" signature="5127:5133" ph="/hello" />
+                  <marker date="1600100055484" expanded="true" signature="5154:5157" ph="get" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -62,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buildspec.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildspec.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            <state relative-caret-position="437">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -77,6 +94,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>role</find>
+      <find>slopesprogrammingsar</find>
+      <find>s3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,11 +104,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hello-world/app.js" />
-        <option value="$PROJECT_DIR$/template.yaml" />
         <option value="$PROJECT_DIR$/packaged.yaml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/buildspec.yml" />
+        <option value="$PROJECT_DIR$/template.yaml" />
+        <option value="$PROJECT_DIR$/hello-world/app.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -102,7 +122,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="134" />
     <option name="y" value="108" />
     <option name="width" value="1421" />
@@ -125,6 +145,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,32 +191,97 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599884712977</updated>
-      <workItem from="1599884714283" duration="2643000" />
+      <workItem from="1599884714283" duration="5854000" />
+      <workItem from="1600053109095" duration="1260000" />
     </task>
+    <task id="LOCAL-00001" summary="Completed publishing to AWS Serverless Application Repository&#10;Updated README to include step to do this">
+      <created>1599888906385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599888906385</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Completed publishing to AWS Serverless Application Repository&#10;Updated README to include step to do this">
+      <created>1599891659369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599891659369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated buildspec to point to the correct yaml file">
+      <created>1599892084892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599892084892</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Removed README from yaml since it was causing problems with S3">
+      <created>1599892979501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599892979501</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Put README back&#10;- Updated buildspec to point to slopesprogrammingsar bucket">
+      <created>1600061526535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600061526535</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated buildspec with valid bucket name">
+      <created>1600061690401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600061690401</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated bucket name to match expected format">
+      <created>1600061896537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600061896537</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updating the lambda to test the pipeline">
+      <created>1600062212097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600062212097</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated Package Version&#10;Updated lambda code">
+      <created>1600096055130</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600096055130</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2643000" />
+    <option name="totallyTimeSpent" value="7114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="980" extended-state="6" />
+    <frame x="134" y="108" width="1421" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22202381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22167487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -206,6 +291,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed publishing to AWS Serverless Application Repository&#10;Updated README to include step to do this" />
+    <MESSAGE value="Updated buildspec to point to the correct yaml file" />
+    <MESSAGE value="Removed README from yaml since it was causing problems with S3" />
+    <MESSAGE value="- Put README back&#10;- Updated buildspec to point to slopesprogrammingsar bucket" />
+    <MESSAGE value="Updated buildspec with valid bucket name" />
+    <MESSAGE value="Updated bucket name to match expected format" />
+    <MESSAGE value="Updating the lambda to test the pipeline" />
+    <MESSAGE value="Updated Package Version&#10;Updated lambda code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Package Version&#10;Updated lambda code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -213,7 +309,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hello-world/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="437">
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -221,45 +317,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packaged_dep.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="397">
-            <caret line="165" column="58" lean-forward="false" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="58" />
+          <first_editor relative-caret-position="3933">
+            <caret line="171" column="3" lean-forward="false" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
             <folding>
-              <marker date="1599888602844" expanded="true" signature="5039:5157" ph="Events: &lt;1 key&gt;" />
-              <marker date="1599888602844" expanded="true" signature="5055:5157" ph="HelloWorld: &lt;2 keys&gt;" />
-              <marker date="1599888602844" expanded="true" signature="5083:5086" ph="Api" />
-              <marker date="1599888602844" expanded="true" signature="5097:5157" ph="Properties: &lt;2 keys&gt;" />
-              <marker date="1599888602844" expanded="true" signature="5127:5133" ph="/hello" />
-              <marker date="1599888602844" expanded="true" signature="5154:5157" ph="get" />
+              <marker date="1600100055484" expanded="true" signature="5039:5157" ph="Events: &lt;1 key&gt;" />
+              <marker date="1600100055484" expanded="true" signature="5055:5157" ph="HelloWorld: &lt;2 keys&gt;" />
+              <marker date="1600100055484" expanded="true" signature="5083:5086" ph="Api" />
+              <marker date="1600100055484" expanded="true" signature="5097:5157" ph="Properties: &lt;2 keys&gt;" />
+              <marker date="1600100055484" expanded="true" signature="5127:5133" ph="/hello" />
+              <marker date="1600100055484" expanded="true" signature="5154:5157" ph="get" />
             </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/buildspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="437">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packaged_dep.yaml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packaged.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="206">
+            <caret line="174" column="22" lean-forward="false" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+            <folding>
+              <marker date="1600100055484" expanded="true" signature="5039:5157" ph="Events: &lt;1 key&gt;" />
+              <marker date="1600100055484" expanded="true" signature="5055:5157" ph="HelloWorld: &lt;2 keys&gt;" />
+              <marker date="1600100055484" expanded="true" signature="5083:5086" ph="Api" />
+              <marker date="1600100055484" expanded="true" signature="5097:5157" ph="Properties: &lt;2 keys&gt;" />
+              <marker date="1600100055484" expanded="true" signature="5127:5133" ph="/hello" />
+              <marker date="1600100055484" expanded="true" signature="5154:5157" ph="get" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
