@@ -19,7 +19,7 @@ Metadata:
     ReadmeUrl: README.md
     Labels: ['tests']
     HomePageUrl: https://github.com/Pipsisewah/sar_prototype
-    SemanticVersion: 0.0.1
+    SemanticVersion: 0.0.2
     SourceCodeUrl: https://github.com/Pipsisewah/sar_prototype
 
 Resources:

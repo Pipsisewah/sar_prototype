@@ -20,7 +20,7 @@ exports.lambdaHandler = async (event, context) => {
         response = {
             'statusCode': 200,
             'body': JSON.stringify({
-                message: 'Hello World!  I was deployed using a pipeline',
+                message: 'Hello World!  I was deployed using a pipeline again',
                 // location: ret.data.trim()
             })
         }
